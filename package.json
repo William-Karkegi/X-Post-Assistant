@@ -1,0 +1,25 @@
+{
+  "name": "x-post-generator",
+  "version": "1.0.0",
+  "description": "A Next.js app that generates 8 daily X posts about user-given topics using OpenAI and Perplexity AI APIs",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^12.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "openai": "^4.0.0",
+    "axios": "^0.24.0",
+    "tailwindcss": "^3.0.0",
+    "postcss": "^8.3.11",
+    "autoprefixer": "^10.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^12.0.0"
+  }
+}
